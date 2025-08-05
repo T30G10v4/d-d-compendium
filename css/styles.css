@@ -1,0 +1,7 @@
+.combat-turns {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    padding: var(--gap);
+    gap: var(--gap);
+}
