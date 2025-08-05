@@ -8,3 +8,6 @@ These tools are made in pure HTML and CSS, no frameworks, with the goal to print
 In the future, I can add some JavaScript to reuse some tools and components, who knows when..
 
 Thank you for reading this (and sorry for my bad English XD)!
+
+## DISCLAIMER
+I'm a fan of D&D and I don't intend to commit copyright infringement against anyone. All the trademarks are property of their respective owners
