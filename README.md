@@ -1,1 +1,2 @@
-# d-d-compendium
+# D&D Compendium
+
