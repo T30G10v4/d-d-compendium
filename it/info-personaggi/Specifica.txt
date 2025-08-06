@@ -1,0 +1,37 @@
+Un master ha bisogno costante delle informazioni di base dai suoi personaggi
+
+Nome Player
+Nome PG
+Razza
+Classe
+FOR + MOD *2
+DES + MOD * 
+COS + MOD
+INT + MOD
+SAG + MOD
+CAR + MOD
+CA
+INIZIATIVA
+VELOCITÀ
+PF MAX
+PF SUB
+PF TEMP
+PF ATT (La formula è MAX - SUB + TEMP = ATT)
+CD Abilità/Incantesimi
+Competenza
+Percezione Passiva
+Tiri Salvezza Morte (3+3 cerchi)
+Resistenze/Vulnerabilità (parte più alta)
+
+30 = 5*3*2
+0 
+0 
+0 
+0 0
+
+0 0 0 0 0
+0 0 0 0 0
+
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
