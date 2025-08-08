@@ -12,3 +12,21 @@
     padding: var(--gap);
     gap: var(--gap);
 }
+
+.info-players-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--gap);
+
+
+    
+}
+
+.info-players-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--gap);
+    padding: var(--gap);
+
+    
+}

@@ -1,0 +1,168 @@
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg"  width="100%" height="100%">
+    <path   d=
+        "   
+            M 8 1
+            Q 1 1 1 8
+            L 1 352
+            Q 1 359 8 359
+            L 471 359
+            Q 479 359 479 351
+            L 479 8
+            Q 479 1 471 1
+            z
+        " 
+        fill="none"
+        stroke="black"
+        stroke-width="2"
+    />
+
+    <path d=
+        "
+            M 0 60
+            L 160 60
+            L 160 0
+
+            M 160 60
+            L 320 60
+            L 320 0
+
+            M 320 60
+            L 480 60
+        " 
+        fill="none" 
+        stroke="black"
+        stroke-width="2"
+    
+    />
+
+    <path d=
+        "
+            M 0 120
+            L 80 120
+            L 80 60
+
+            M 80 120
+            L 160 120
+            L 160 60
+
+            M 160 120
+            L 240 120
+            L 240 60
+
+            M 240 120
+            L 320 120
+            L 320 60
+
+            M 320 120
+            L 400 120
+            L 400 60
+
+            M 400 120
+            L 480 120
+        " 
+        fill="none" 
+        stroke="black"
+        stroke-width="2"
+    />
+
+    <path d=
+        "
+            M 0 180
+            L 60 180
+            L 60 120
+
+            M 60 180
+            L 120 180
+            L 120 120
+
+            M 120 180
+            L 180 180
+            L 180 120
+
+            M 180 180
+            L 240 180
+            L 240 120
+
+            M 240 180
+            L 300 180
+            L 300 120
+
+            M 300 180
+            L 360 180
+            L 360 120
+
+            M 360 180
+            L 420 180
+            L 420 120
+
+            M 420 180
+            L 480 180
+
+        " 
+        fill="none" 
+        stroke="black"
+        stroke-width="2"
+    />
+
+    <path d=
+        "
+            M 0 240
+            L 60 240
+            L 60 180
+
+            M 0 300
+            L 60 300
+            L 60 240
+            
+            M 60 360
+            L 60 300
+           
+        " 
+        fill="none" 
+        stroke="black"
+        stroke-width="2"
+    />
+
+    <path d=
+        "
+            M 480 300
+            L 320 300
+            L 320 360
+           
+        " 
+        fill="none" 
+        stroke="black"
+        stroke-width="2"
+    />
+
+
+    <text x="5" y="10" font-size="10" text-anchor="left" fill="black">Character Name</text>
+    <text x="165" y="10" font-size="10" text-anchor="left" fill="black">Races/Species</text>
+    <text x="325" y="10" font-size="10" text-anchor="left" fill="black">Classes/Levels</text>
+
+    <text x="5" y="70" font-size="10" text-anchor="left" fill="black">STR</text>
+    <text x="85" y="70" font-size="10" text-anchor="left" fill="black">DEX</text>
+    <text x="165" y="70" font-size="10" text-anchor="left" fill="black">CON</text>
+    <text x="245" y="70" font-size="10" text-anchor="left" fill="black">INT</text>
+    <text x="325" y="70" font-size="10" text-anchor="left" fill="black">WIS</text>
+    <text x="405" y="70" font-size="10" text-anchor="left" fill="black">CHA</text>
+
+    <text x="5" y="130" font-size="10" text-anchor="left" fill="black">HP MAX</text>
+    <text x="5" y="190" font-size="10" text-anchor="left" fill="black">HP TEMP</text>
+    <text x="5" y="250" font-size="10" text-anchor="left" fill="black">HP LOST</text>
+    <text x="5" y="310" font-size="10" text-anchor="left" fill="black">HP NOW</text>
+
+    <text x="65" y="130" font-size="10" text-anchor="left" fill="black">AC</text>
+    <text x="125" y="130" font-size="10" text-anchor="left" fill="black">DC</text>
+    <text x="185" y="130" font-size="10" text-anchor="left" fill="black">PROF</text>
+    <text x="245" y="130" font-size="10" text-anchor="left" fill="black">INI</text>
+    <text x="305" y="130" font-size="10" text-anchor="left" fill="black">SPE</text>
+    <text x="365" y="130" font-size="10" text-anchor="left" fill="black">PP</text>
+    <text x="425" y="130" font-size="10" text-anchor="left" fill="black">DST</text>
+    
+    <text x="65" y="190" font-size="10" text-anchor="left" fill="black">Notes</text>
+
+    <text x="325" y="310" font-size="10" text-anchor="left" fill="black">Player Name</text>
+
+  
+</svg>

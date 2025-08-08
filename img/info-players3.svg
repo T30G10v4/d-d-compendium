@@ -1,0 +1,183 @@
+<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg"  width="100%" height="100%">
+    <path   d=
+        "   
+            M 6 1
+            Q 1 1 1 6
+            L 1 354
+            Q 1 359 6 359
+            L 356 359
+            Q 359 359 359 356 
+            L 359 6
+            Q 359 1 354 1
+            Z
+        " 
+        fill="white"
+        stroke="black"
+        stroke-width="2"
+    />
+
+    <!-- Character Name -->
+    <text x="5" y="10" font-size="10" text-anchor="left" fill="black">Character Name</text>
+    <path d=
+        "
+            M 0 60
+            L 360 60
+        " 
+        fill="none" 
+        stroke="black"
+        stroke-width="2"
+
+    />
+
+    <!-- Races/Levels -->
+    <text x="5" y="70" font-size="10" text-anchor="left" fill="black">Races/Species</text>
+    <text x="185" y="70" font-size="10" text-anchor="left" fill="black">Classes/Levels</text>
+    <path d=
+        "
+            M 0 120
+            L 360 120
+
+            M 180 120
+            L 180 60
+        " 
+        fill="none" 
+        stroke="black"
+        stroke-width="2"
+    />
+
+    <!-- Chars -->
+    <text x="5" y="130" font-size="10" text-anchor="left" fill="black">STR</text>
+    <text x="65" y="130" font-size="10" text-anchor="left" fill="black">DEX</text>
+    <text x="125" y="130" font-size="10" text-anchor="left" fill="black">CON</text>
+    <text x="185" y="130" font-size="10" text-anchor="left" fill="black">INT</text>
+    <text x="245" y="130" font-size="10" text-anchor="left" fill="black">WIS</text>
+    <text x="305" y="130" font-size="10" text-anchor="left" fill="black">CHA</text>
+    <path d=
+        "
+            M 0 180
+            L 60 180
+            L 60 120
+
+            M 60 180
+            L 120 180
+            L 120 120
+
+            M 120 180
+            L 180 180
+            L 180 120
+
+            M 180 180
+            L 240 180
+            L 240 120
+
+            M 240 180
+            L 300 180
+            L 300 120
+
+            M 300 180
+            L 360 180
+        " 
+        fill="none" 
+        stroke="black"
+        stroke-width="2"
+    />
+
+    <!-- Other stats -->
+    <text x="5" y="190" font-size="10" text-anchor="left" fill="black">AC</text>
+    <text x="65" y="190" font-size="10" text-anchor="left" fill="black">DC</text>
+    <text x="125" y="190" font-size="10" text-anchor="left" fill="black">PROF</text>
+    <text x="185" y="190" font-size="10" text-anchor="left" fill="black">INI</text>
+    <text x="245" y="190" font-size="10" text-anchor="left" fill="black">SPE</text>
+    <text x="305" y="190" font-size="10" text-anchor="left" fill="black">PP</text>
+    <path d=
+        "
+            M 0 240
+            L 60 240
+            L 60 180
+
+            M 60 240
+            L 120 240
+            L 120 180
+
+            M 120 240
+            L 180 240
+            L 180 180
+
+            M 180 240
+            L 240 240
+            L 240 180
+
+            M 240 240
+            L 300 240
+            L 300 180
+
+            M 300 240
+            L 360 240
+        " 
+        fill="none" 
+        stroke="black"
+        stroke-width="2"
+    />
+
+    <!-- HPS -->
+    <text x="5" y="250" font-size="10" text-anchor="left" fill="black">HP MAX</text>
+    <text x="65" y="250" font-size="10" text-anchor="left" fill="black">HP TEMP</text>
+    <text x="125" y="250" font-size="10" text-anchor="left" fill="black">HP LOST</text>
+    <text x="185" y="250" font-size="10" text-anchor="left" fill="black">HP NOW</text>
+
+    <text x="245" y="250" font-size="10" text-anchor="left" fill="black">DST</text>
+    <path d=
+        "
+            M 0 300
+            L 60 300
+            L 60 240
+
+            M 60 300
+            L 120 300
+            L 120 240
+
+            M 120 300
+            L 180 300
+            L 180 240
+
+            M 180 300
+            L 240 300
+            L 240 240
+
+            M 240 300
+            L 360 300      
+        " 
+        fill="none" 
+        stroke="black"
+        stroke-width="2"
+    />
+
+    <!-- Other Stuff -->
+    <text x="5" y="310" font-size="10" text-anchor="left" fill="black">Notes</text>
+    <text x="185" y="310" font-size="10" text-anchor="left" fill="black">Player Name</text>
+    <path d=
+        "
+            
+            M 180 360
+            L 180 300
+
+           
+        " 
+        fill="none" 
+        stroke="black"
+        stroke-width="2"
+    />
+
+    
+    <!-- 
+
+    
+
+    
+
+    
+    
+     -->
+
+  
+</svg>
