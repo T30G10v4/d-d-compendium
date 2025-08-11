@@ -30,3 +30,173 @@
 
     
 }
+
+.character-sheet {
+
+
+
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:    "name name name name name name"
+                            "race char-class level char-background alignment exp"
+                            "strength dexterity constitution intelligence wisdom charisma"
+                            "proficiency initiative armor-class inspiration passive-perception speed";
+    gap: var(--gap);
+    padding: 5mm;
+
+    & > *{
+
+        border: var(--border-2);
+
+    }
+
+    p {
+
+        line-height: 5mm;
+        font-size: 0.7rem;
+
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .border-bottom {
+
+        border-bottom: var(--border);
+    }
+
+    .empty-dot {
+
+        height: var(--height-10); 
+        font-size: 10mm;
+
+    }
+
+    .empty-space {
+
+        height: var(--height-15); 
+       
+    }
+
+    .saving-throw {
+
+        height: var(--height-15);
+     
+    }
+
+    .name {
+
+        grid-area: name;
+        height:var(--height-15);
+       
+    }
+
+    .race {
+
+        grid-area: race;
+        height:var(--height-40);
+    }
+
+    .char-class {
+
+        grid-area: char-class;
+        height:var(--height-40);
+    }   
+
+    .level {
+
+        grid-area: level;
+        height:var(--height-40);
+    }
+
+    .char-background {
+
+        grid-area: char-background;
+        height:var(--height-40);
+    }
+
+    .alignment {
+
+        grid-area: alignment;
+        height:var(--height-40);
+    }
+
+    .exp {
+
+        grid-area: exp;
+        height:var(--height-40);
+    }
+
+    .strength {
+        grid-area: strength;
+        height:var(--height-110);
+    }
+
+    .dexterity {
+        grid-area: dexterity;
+        height:var(--height-110);
+    }
+    
+    .constitution {
+        grid-area: constitution;
+        height:var(--height-110);
+    }
+
+    .intelligence {
+        grid-area: intelligence;
+        height:var(--height-110);
+    }
+
+    .wisdom {
+        grid-area: wisdom;
+        height:var(--height-110);
+    }
+
+    .charisma {
+        grid-area: charisma;
+        height:var(--height-110);
+    }
+
+    .proficiency {
+        grid-area: proficiency;
+      
+    }
+
+    .initiative {
+        grid-area: initiative;
+        
+    }   
+
+    .armor-class {
+        grid-area: armor-class;
+        
+    }   
+
+    .inspiration {
+        grid-area: inspiration;
+       
+    }
+
+    .passive-perception {
+        grid-area: passive-perception;
+    }
+
+    .speed {
+        grid-area: speed;
+ 
+    }
+    
+    .proficiency, .initiative, .armor-class, .inspiration, .passive-perception, .speed {
+
+        height:var(--height-20);
+       
+    }
+
+    .hp-max, .hp-temp, .hp-losed, .hp-total, .life-dice, .dst {
+
+        height:var(--height-20);
+       
+    }
+
+}

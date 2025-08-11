@@ -1,7 +1,30 @@
 :root {
 
-    --gap: 5mm;
+    --gap: 1mm;
     --border: 1px solid black;
+    --border-2: 2px solid black;
+
+    --height-15: 15mm;
+    --height-20: 20mm;
+    --height-25: 25mm;
+    --height-30: 30mm;
+    --height-35: 35mm;
+    --height-40: 40mm;
+    --height-45: 45mm;
+    --height-50: 50mm;
+    --height-55: 55mm;
+    --height-60: 60mm;
+    --height-65: 65mm;
+    --height-70: 70mm;
+    --height-75: 75mm;
+    --height-80: 80mm;
+    --height-85: 85mm;
+    --height-90: 90mm;
+    --height-95: 95mm;
+    --height-100: 100mm;
+    --height-105: 105mm;
+    --height-110: 110mm;
+
 
 }
 
