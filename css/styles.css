@@ -190,54 +190,46 @@
 
     display: grid;
 
-
     .card {
 
-        width:2.5in;
-        height:3.5in;
-        gap:1mm;
-        border: 4px solid black;
+        width: 2.5in;
+        height: 3.5in;
+        gap: 1mm;
+        border: 8px solid black;
         padding: 2mm;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-areas: "name name name"
-                             "verbal-components somatic-components material-components";
+        grid-template-rows: auto repeat(4, 1fr);
+        grid-template-areas:    "name name name"
+                                "verbal-components somatic-components material-components"
+                                "ritual concentration area-of-effect"
+                                "casting-time range target"
+                                "description description description";
 
-        
-        
+        & > * {
+            text-align: center;
+            border-right: 1px solid black;
+            border-bottom: 1px solid black;
+            padding: 2px;
+            font-size: 0.8rem;
+        }
 
         .name {
             grid-area: name;
             font-weight: bold;
-            font-size: 1.2rem;
-            text-align: center;
-            border:1px solid black
+            font-size: 0.2in;
         }
 
-        .verbal-components, .somatic-components, .material-components {
-            font-size: 0.8rem;
-            text-align: center;
-            padding: 2px;
-            border: 1px solid black;
-
-
-
+        .description {
+            grid-area: description;
         }
+    }
+}
 
-        .verbal-components {
-            grid-area: verbal-components;
-        }
+.dale-reckoning {
 
-        .somatic-components {
-            grid-area: somatic-components;
-        }
-
-        .material-components {
-            grid-area: material-components;
-        }
-
+    font-family: 'MedievalSharp', sans-serif;
 
     
-    }
 
 }
