@@ -32,29 +32,24 @@
 }
 
 .character-sheet {
-
-
-
     display:grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas:    "name name name name name name"
                             "race char-class level char-background alignment exp"
                             "strength dexterity constitution intelligence wisdom charisma"
-                            "proficiency initiative armor-class inspiration passive-perception speed";
+                            "proficiency initiative armor-class inspiration passive-perception speed"
+                            "hp-max hp-temp hp-losed hp-total life-dice dst";
     gap: var(--gap);
     padding: 5mm;
 
     & > *{
-
         border: var(--border-2);
 
     }
 
     p {
-
         line-height: 5mm;
         font-size: 0.7rem;
-
     }
 
     .text-center {
@@ -62,38 +57,28 @@
     }
 
     .border-bottom {
-
         border-bottom: var(--border);
     }
 
     .empty-dot {
-
         height: var(--height-10); 
         font-size: 10mm;
-
     }
 
     .empty-space {
-
-        height: var(--height-15); 
-       
+        height: var(--height-15);       
     }
 
     .saving-throw {
-
-        height: var(--height-15);
-     
+        height: var(--height-15);   
     }
 
     .name {
-
         grid-area: name;
-        height:var(--height-15);
-       
+        height:var(--height-15);    
     }
 
     .race {
-
         grid-area: race;
         height:var(--height-40);
     }
@@ -197,6 +182,62 @@
 
         height:var(--height-20);
        
+    }
+
+}
+
+.spell-cards {
+
+    display: grid;
+
+
+    .card {
+
+        width:2.5in;
+        height:3.5in;
+        gap:1mm;
+        border: 4px solid black;
+        padding: 2mm;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "name name name"
+                             "verbal-components somatic-components material-components";
+
+        
+        
+
+        .name {
+            grid-area: name;
+            font-weight: bold;
+            font-size: 1.2rem;
+            text-align: center;
+            border:1px solid black
+        }
+
+        .verbal-components, .somatic-components, .material-components {
+            font-size: 0.8rem;
+            text-align: center;
+            padding: 2px;
+            border: 1px solid black;
+
+
+
+        }
+
+        .verbal-components {
+            grid-area: verbal-components;
+        }
+
+        .somatic-components {
+            grid-area: somatic-components;
+        }
+
+        .material-components {
+            grid-area: material-components;
+        }
+
+
+    
     }
 
 }
