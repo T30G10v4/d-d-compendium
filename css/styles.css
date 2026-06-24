@@ -246,3 +246,17 @@
 
 
 }
+ 
+.cards {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    img {
+
+       width: 2.5in;
+        /* height: 3.5in; */
+
+    }
+
+}
