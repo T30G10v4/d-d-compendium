@@ -1,7 +1,7 @@
 .combat-turns {
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     padding: var(--gap);
     gap: var(--gap);
 }
@@ -19,7 +19,7 @@
     gap: var(--gap);
 
 
-    
+
 }
 
 .info-players-3 {
@@ -28,21 +28,21 @@
     gap: var(--gap);
     padding: var(--gap);
 
-    
+
 }
 
 .character-sheet {
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-areas:    "name name name name name name"
-                            "race char-class level char-background alignment exp"
-                            "strength dexterity constitution intelligence wisdom charisma"
-                            "proficiency initiative armor-class inspiration passive-perception speed"
-                            "hp-max hp-temp hp-losed hp-total life-dice dst";
+    grid-template-areas: "name name name name name name"
+        "race char-class level char-background alignment exp"
+        "strength dexterity constitution intelligence wisdom charisma"
+        "proficiency initiative armor-class inspiration passive-perception speed"
+        "hp-max hp-temp hp-losed hp-total life-dice dst";
     gap: var(--gap);
     padding: 5mm;
 
-    & > *{
+    &>* {
         border: var(--border-2);
 
     }
@@ -61,106 +61,106 @@
     }
 
     .empty-dot {
-        height: var(--height-10); 
+        height: var(--height-10);
         font-size: 10mm;
     }
 
     .empty-space {
-        height: var(--height-15);       
+        height: var(--height-15);
     }
 
     .saving-throw {
-        height: var(--height-15);   
+        height: var(--height-15);
     }
 
     .name {
         grid-area: name;
-        height:var(--height-15);    
+        height: var(--height-15);
     }
 
     .race {
         grid-area: race;
-        height:var(--height-40);
+        height: var(--height-40);
     }
 
     .char-class {
 
         grid-area: char-class;
-        height:var(--height-40);
-    }   
+        height: var(--height-40);
+    }
 
     .level {
 
         grid-area: level;
-        height:var(--height-40);
+        height: var(--height-40);
     }
 
     .char-background {
 
         grid-area: char-background;
-        height:var(--height-40);
+        height: var(--height-40);
     }
 
     .alignment {
 
         grid-area: alignment;
-        height:var(--height-40);
+        height: var(--height-40);
     }
 
     .exp {
 
         grid-area: exp;
-        height:var(--height-40);
+        height: var(--height-40);
     }
 
     .strength {
         grid-area: strength;
-        height:var(--height-110);
+        height: var(--height-110);
     }
 
     .dexterity {
         grid-area: dexterity;
-        height:var(--height-110);
+        height: var(--height-110);
     }
-    
+
     .constitution {
         grid-area: constitution;
-        height:var(--height-110);
+        height: var(--height-110);
     }
 
     .intelligence {
         grid-area: intelligence;
-        height:var(--height-110);
+        height: var(--height-110);
     }
 
     .wisdom {
         grid-area: wisdom;
-        height:var(--height-110);
+        height: var(--height-110);
     }
 
     .charisma {
         grid-area: charisma;
-        height:var(--height-110);
+        height: var(--height-110);
     }
 
     .proficiency {
         grid-area: proficiency;
-      
+
     }
 
     .initiative {
         grid-area: initiative;
-        
-    }   
+
+    }
 
     .armor-class {
         grid-area: armor-class;
-        
-    }   
+
+    }
 
     .inspiration {
         grid-area: inspiration;
-       
+
     }
 
     .passive-perception {
@@ -169,19 +169,29 @@
 
     .speed {
         grid-area: speed;
- 
-    }
-    
-    .proficiency, .initiative, .armor-class, .inspiration, .passive-perception, .speed {
 
-        height:var(--height-20);
-       
     }
 
-    .hp-max, .hp-temp, .hp-losed, .hp-total, .life-dice, .dst {
+    .proficiency,
+    .initiative,
+    .armor-class,
+    .inspiration,
+    .passive-perception,
+    .speed {
 
-        height:var(--height-20);
-       
+        height: var(--height-20);
+
+    }
+
+    .hp-max,
+    .hp-temp,
+    .hp-losed,
+    .hp-total,
+    .life-dice,
+    .dst {
+
+        height: var(--height-20);
+
     }
 
 }
@@ -200,13 +210,14 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto repeat(4, 1fr);
-        grid-template-areas:    "name name name"
-                                "verbal-components somatic-components material-components"
-                                "ritual concentration area-of-effect"
-                                "casting-time range target"
-                                "description description description";
+        grid-template-areas: "name name name"
+            "verbal-components somatic-components material-components"
+            "ritual concentration area-of-effect"
+            "casting-time range target"
+            "description description description";
+        border-radius: 3mm;
 
-        & > * {
+        &>* {
             text-align: center;
             border-right: 1px solid black;
             border-bottom: 1px solid black;
@@ -221,7 +232,9 @@
         }
 
         .description {
+            text-align: left;
             grid-area: description;
+
         }
     }
 }
@@ -230,6 +243,6 @@
 
     font-family: 'MedievalSharp', sans-serif;
 
-    
+
 
 }

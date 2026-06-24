@@ -1,0 +1,76 @@
+.page {
+
+    font-family: 'MedievalSharp', sans-serif;
+    border: 1px solid black;
+    padding:.25cm;
+    display: grid;
+    /* width: 12.5cm;
+    height: 20.5cm; */
+    
+    
+    gap:2.5mm;
+
+    grid-template-areas:
+        "name name name name name slot"
+        "school level time distance duration slot"
+        "verbal somatic material concentration ritual slot"
+        "ench-text ench-text ench-text ench-text ench-text slot"
+        "ench-text ench-text ench-text ench-text ench-text slot"
+        "ench-text ench-text ench-text ench-text ench-text slot"
+        "ench-text ench-text ench-text ench-text ench-text slot"
+        "ench-text ench-text ench-text ench-text ench-text slot"
+        "ench-text ench-text ench-text ench-text ench-text slot"
+        "ench-text ench-text ench-text ench-text ench-text slot"
+        ;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    &>*{
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        position: relative;
+        
+    }
+    
+    .name {
+        grid-area: name;
+        font-size: 1.5rem;
+        text-align: center;
+        line-height: 1.5cm;
+    }
+
+    .slot {
+        .content-text {
+           font-size: 1.5rem;
+        }
+        
+    }
+
+    .ench-text {
+        grid-area: ench-text;
+        padding-bottom: .25cm;
+        padding-right: .25cm;
+
+    }
+
+    .level-text{
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-size: .8rem;
+        }
+    
+    .content-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: .7rem;
+            text-align: center;
+    }
+    
+    
+
+}
